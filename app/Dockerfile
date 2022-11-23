@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.10
 USER root
 
 ENV DEBCONF_NOWARNINGS=yes

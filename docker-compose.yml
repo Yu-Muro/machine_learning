@@ -2,8 +2,8 @@ version: '3.3'
 services:
   app:
     build: ./app/
-    container_name: murotani_test_env
-    hostname: test_env
+    container_name: python_env
+    hostname: python_env
     environment:
         TZ: "Asia/Tokyo"
     ports:
